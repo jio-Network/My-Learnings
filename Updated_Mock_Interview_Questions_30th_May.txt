@@ -1,0 +1,119 @@
+Jenkins Questions
+=================
+
+1) Can You Please write a syntax for declarative and Scripted Pipeline? show me what is the 
+   difference ?
+
+2) Do You have any idea on Jenkins Plugins? any where used in your project and it's use cases ?
+
+3) As you mentioned in resume you are working for ABC Project So Can You please explain the 
+   CI/CD Process of your project ?
+
+4) What is the Shared Libraries in Jenkins? have you ever implemented in your project ?
+
+5) As You Know for safer side every server we need take a backup. is there any activity done  
+   in your project related to Jenkins Backup activity ? Explain the Possibility ways ?
+
+6) What is Multi-Branch Pipelines in Jenkins ?
+
+7) What is the default directory for jenkins ?
+
+
+Nexus
+======
+
+1) Where Your Artifacts versioning's will be stored in Your Projects ? explain 1 or 2 points about that ?
+
+
+SonarQube
+=========
+
+1) How do you analyze the source code Quality in your project. are doing manually or any specific tool you are using for this ? and Explain about the process what exactly you are doing in your project ?
+
+2) as you mentioned you are using SonarQube for Code Quality checking so What is the Difference between Quality Profile and Quality Gate ? 
+
+
+Maven
+=====
+
+1) As you mentioned you are using maven as build tool in your project. What exactly build tool will do ? and Explain maven life cycle also ?
+
+2) as we all know if we run maven goals for the first time, it will check local repository for required dependencies if it is not there it will go and download dependencies from maven central repository ?  so our dependencies will maintained by .m2 local repository. can we change this local repository directory? and How ?
+
+
+
+Git Hub
+======
+
+1) Explain the Branching Strategy which you follows in your project ?
+
+2) Today i have written some docker and YAML files and pushed to git hub. after that i have noticed those are not fully  completed and i have done some mistakes to , now i want to get back those commits from git hub. what are the following steps you are going to follow here ?
+
+3) What is difference between Git Merge and Git Rebase ? 
+
+4) Explain what is the difference between git push and git pull ?
+
+5) Do You have any idea on git stash command ?
+
+6) While working with Git hub have you ever faced any git conflicts ? Explain where you exactly faced and how to resolve that conflicts ?
+
+7) Suppose i have added "pod.yml" and "abc.txt" files into staging area. after that i realised that i don't want to push those file into local and remote repository. here i just want again move those files to my working area. Is there any way to do that ?
+
+8) Which Version of Git you are using in your present project ? and Explain Git Architecture ?
+
+9) Explain git stash command and where you exactly worked on in your project ?
+
+
+Docker:
+-------
+
+1) Can You Please Explain the Docker Architecture or Work Flow ?
+
+2) Which Version of Docker You are using in Your Project ?
+
+3) Can You Please Explain What is Docker ?
+
+4) What is the Difference between Virtualization and Containerization ?
+
+5) How Can You List out the running containers and one requirement came that i need to stop traffic to that Container.what is process i should follow here ?
+
+6) Can You please explain the some docker commands which you used in your project ?
+
+7) Have You written any Dockerfile in your project ? if you know can you explain what exactly it contains ? what is the use of  Dockerfile ?
+
+8) What is the Difference betweeb RUN,CMD and ENTRYPOINT ?
+
+9) For Example my containers gets crashed, in that time what kind of action your taking or what kind of troubleshooting you will follow ?
+
+10) What is the  difference between COPY and ADD instructions in Dockerfile ?
+
+11) what is default name for dockerfile ? and can we give another name ? if yes how do you create a docker image tell me the syntax please ?
+
+12) As you told you have an idea on Docker. Can You please explain where you are going to store/keep your docker images ?
+
+13) How do you optimize the size of a docker images ?
+
+14) For Example i have one Application it is an online shopping based application is running on one container so here i Application need interact with my Database. my Database in another container. how do they interact with each other ?
+
+15) What is Stateless and Statefull containers in Docker ?
+
+16) What is are different types of Docker networks ? and name of default network ?
+
+17) what is use of Docker Network and can we create our networks ? explain the command please ?
+
+18) What is a Docker Volume? Difference between bind mount and volume ?
+
+19) Can You Please Explain The Best Practices in Docker ?
+
+20) What is the role of .dockerignore ?
+
+21) For Example in my customized Network i have Two containers on the same host can't communicate—how do you fix it ?
+
+22) Your container consumes too much memory—how do you investigate ?
+
+23) If your container runs but your app isn't responding, what do you check ?
+
+24) What is the default directory for docker in Linux server ?
+
+25) 
+
