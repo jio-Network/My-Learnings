@@ -1,0 +1,93 @@
+
+# 📝 Git Interview Questions & Cheatsheet
+
+## 🔹 Part 1: Real-Time Git Questions for Practice  
+
+### Basic Concepts  
+1. What is the difference between Git and GitHub/GitLab/Bitbucket?  
+2. What is the difference between `git clone` and `git fork`?  
+3. How does `git pull` differ from `git fetch`? Give a real-time scenario.  
+4. If two developers push to the same branch at the same time, what happens?  
+5. How do you resolve merge conflicts in Git?  
+
+### Branching & Merging  
+6. Difference between `merge` and `rebase` with examples.  
+7. In your project, you created a new feature branch. After some time, `main` has new commits. How do you update your feature branch with the latest changes?  
+8. What is a fast-forward merge vs. a non-fast-forward merge?  
+9. When would you prefer `git cherry-pick` over `git merge`?  
+
+### Troubleshooting / Real-time Scenarios  
+10. You committed sensitive data (like a password or API key). How do you remove it from Git history?  
+11. You pushed a wrong commit to `main`. How do you undo it? (before others pulled it & after others pulled it)  
+12. How do you find who made changes to a specific line in a file?  
+13. Your build is failing because of a bug introduced yesterday. How do you find which commit introduced it?  
+14. Your branch is 10 commits ahead of main, but you only want to push 2 specific commits. What do you do?  
+
+### Advanced & Best Practices  
+15. Explain Gitflow workflow vs. trunk-based workflow. Which one did you use in your projects?  
+16. What is the purpose of `.gitignore`? Can you ignore an already committed file? How?  
+17. Difference between `git reset`, `git revert`, and `git restore`? Give use cases.  
+18. How do you squash commits before merging a feature branch?  
+19. How do you tag a release in Git? Difference between lightweight and annotated tags?  
+20. How do you handle large binary files in Git?  
+
+---
+
+## 🔹 Part 2: Git Commands Cheatsheet  
+
+### 🔸 Repository Setup
+```bash
+git init                     # Initialize a new repo
+git clone <url>              # Clone a repo
+git remote -v                # Show remote URLs
+git remote add origin <url>  # Add remote
+```
+
+### 🔸 Basic Snapshotting
+```bash
+git status                   # Show status
+git add <file>               # Stage file
+git commit -m "message"      # Commit staged changes
+git log --oneline --graph    # Compact commit history
+```
+
+### 🔸 Branching & Merging
+```bash
+git branch                   # List branches
+git branch <name>            # Create branch
+git checkout <name>          # Switch branch
+git switch <name>            # Switch branch (new way)
+git merge <branch>           # Merge into current branch
+git rebase <branch>          # Reapply commits on top
+```
+
+### 🔸 Updating & Publishing
+```bash
+git pull origin main         # Pull latest changes
+git fetch origin             # Download changes without merge
+git push origin <branch>     # Push branch to remote
+```
+
+### 🔸 Undoing Things
+```bash
+git checkout -- <file>       # Discard local changes
+git reset HEAD <file>        # Unstage a file
+git reset --hard HEAD~1      # Delete last commit
+git revert <commit>          # Create new commit undoing changes
+```
+
+### 🔸 Stashing & Cleaning
+```bash
+git stash                    # Save uncommitted changes
+git stash pop                # Reapply stashed changes
+git clean -fd                # Remove untracked files
+```
+
+### 🔸 Advanced
+```bash
+git cherry-pick <commit>     # Apply specific commit
+git bisect start             # Find buggy commit
+git blame <file>             # Show who changed each line
+git tag v1.0                 # Create lightweight tag
+git tag -a v1.0 -m "msg"     # Annotated tag
+```
