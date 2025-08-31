@@ -1,0 +1,66 @@
+Git Interview Questions (Basics → Advanced)
+🟢 Basic Level (Fundamentals)
+
+What is Git and why do we use it?
+
+Difference between Git and GitHub/GitLab/Bitbucket?
+
+What is the difference between git init and git clone?
+
+What is the difference between git pull and git fetch?
+
+What is the staging area in Git?
+
+Explain the difference between git add and git commit.
+
+What does git status show?
+
+What is .gitignore and why is it important?
+
+Explain git log and how you can customize it.
+
+How do you undo the last commit but keep changes in your working directory?
+
+🟡 Intermediate Level (Real-time Scenarios)
+
+What is the difference between git merge and git rebase? Give a use case.
+
+What are detached HEAD states in Git and how to fix them?
+
+What are Git branches? How do you create, delete, and switch branches?
+
+How do you resolve merge conflicts? (steps with <<<<<<<, =======, >>>>>>>)
+
+What is a Pull Request (PR) and explain the real-time PR workflow.
+
+What is git stash? When have you used it in real-time?
+
+What is git cherry-pick and why is it useful?
+
+How do you recover a deleted branch?
+
+What’s the difference between git reset, git revert, and git restore?
+
+How do you squash commits in Git?
+
+🔴 Advanced Level (Real-time + Troubleshooting)
+
+How do you handle a scenario where your push is rejected because of remote changes?
+
+How do you revert a commit that is already pushed to a remote branch?
+
+What is the difference between rebase -i and squash merge in PRs?
+
+What is a bare repository in Git? When do we use it?
+
+What are Git hooks? Have you used them in real-time projects?
+
+What is Git submodule and when should we use it?
+
+How do you handle versioning and tagging in Git for production releases?
+
+How do you find who introduced a bug in Git history? (hint: git blame, git bisect)
+
+Explain Git workflow strategies: Git Flow, GitHub Flow, Trunk Based Development.
+
+In your project, how do you manage hotfixes vs feature branches?
